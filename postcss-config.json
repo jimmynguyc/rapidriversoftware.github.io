@@ -1,8 +1,8 @@
 {
-  "use": ["postcss-import", "autoprefixer", "postcss-normalize", "postcss-nested"],
+  "use": ["postcss-import", "autoprefixer", "postcss-normalize", "postcss-nested", "postcss-font-magician"],
     "input": "app/css/main.css",
     "output": "dist/css/bundle.css",
     "autoprefixer": {
-        "browsers": "> 5%"
+      "browsers": "> 5%"
     }
 }

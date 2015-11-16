@@ -11,6 +11,8 @@ html {
 body {
   font-size: 1.4rem;
   background: white;
+  text-rendering: optimizeLegibility;
+  font-smoothing: antialiased;
 
   p {
     font-family: 'Merriweather', Georgia, serif;
@@ -21,7 +23,6 @@ body {
 }
 
 nav {
-
   &.navbar-default {
     background: rgba(255,255,255,.85);
     border-color: rgba(200,200,200, .85);
@@ -203,8 +204,6 @@ section {
       background-color: #eee;
     }
   }
-
-
 }
 
 
@@ -268,5 +267,43 @@ section {
   p {
     font-weight: 100;
     font-size: 1.4rem;
+  }
+}
+
+footer {
+  background: rgb(44, 49, 60);
+  color: rgb(105, 108, 130);
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,.75);
+
+  p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    color: rgb(125, 128, 150);
+    text-shadow: 0 1px 2px rgba(0,0,0,.75);
+  }
+
+  a {
+    color: rgb(145, 148, 170);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  ul,li {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    font-size: 1rem;
+    line-height: 2rem;
   }
 }
